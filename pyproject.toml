@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Validator performance check"
+version = "0.1.0"
+description = "This tool created to quickly get info about Lido validators rewards/penalties"
+authors = ["gregshestakov <gregshestakov@gmail.com >"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.12.2"
+plotly = "^5.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
