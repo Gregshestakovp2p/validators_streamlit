@@ -43,7 +43,6 @@ def get_operator_by_name(operator: str, size: int, from_day: int) -> list:
 
 def convert_dates_to_int(date_from, date_to):
     date_df = create_date_df()
-    print(date_df)
     from_to_dict = {}
 
     from_to_dict['from'] = date_df[date_df['date'] == date_to].iloc[0, 0]
