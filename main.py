@@ -16,7 +16,7 @@ st.title('Validators performance exctractor')
 
 operator_select=st.selectbox(
         "Please select operator",
-        ["Blockscape","P2P.ORG - P2P Validator","DSRV","stakefish","Staking Facilities","Allnodes","RockX","SkillZ","ChainLayer","BridgeTower","Chorus One","Figment","Simply Staking","InfStones","Everstake","Stakin","Stakely","HashQuark","Blockdaemon","Anyblock Analytics","ConsenSys Codefi","Certus One","CryptoManufaktur - Lido","Kukis Global","RockLogic GmbH","Nethermind - Lido","Sigma Prime - Lido","ChainSafe - Lido"]
+        ["Blockscape","P2P.ORG - P2P Validator","DSRV","Stakefish","Staking Facilities","Allnodes","RockX","SkillZ","ChainLayer","BridgeTower","Chorus One","Figment","Simply Staking","InfStones","Everstake","Stakin","Stakely","HashQuark","Blockdaemon","Anyblock Analytics","ConsenSys Codefi","Certus One","CryptoManufaktur - Lido","Kukis Global","RockLogic GmbH","Nethermind - Lido","Sigma Prime - Lido","ChainSafe - Lido"]
     )
 
 
